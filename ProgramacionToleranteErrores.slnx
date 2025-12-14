@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/Exceptions/">
     <Project Path="Exception/Exception.csproj" />
+    <Project Path="ExceptionApi/ExceptionApi.csproj" Id="bd6636af-6a88-4ac3-9eb3-772cabc1c4bb" />
+    <Project Path="ExceptionPerfomance/ExceptionPerfomance.csproj" Id="07e6db9d-9cdb-4002-8a9f-5a5a99ed698f" />
+    <Project Path="ProductRepository-Exception/ProductRepository-Exception.csproj" Id="7443b3ed-a84a-49d7-ae01-4bcec53ffbb7" />
   </Folder>
 </Solution>

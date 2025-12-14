@@ -1,31 +1,56 @@
-﻿try
-{
-    Console.WriteLine("Escribe un numero: ");
-    int a = Convert.ToInt32(Console.ReadLine());
+﻿using ExceptionClasses;
 
-    Console.WriteLine("Escribe otro numero: ");
-    int b = Convert.ToInt32(Console.ReadLine());
+bool isOver = false;
 
-    int result = a / b;
+do
+{
+    try
+    {
+        Console.WriteLine("Escribe un numero: ");
+        int a = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine("El resultado de la division es: " + result);
-}
-catch(FormatException ex)
-{
-    Console.WriteLine("Debes escribir numeros");
-}
-catch(DivideByZeroException ex)
-{
-    Console.WriteLine("No puedes dividir entre cero" + ex.Message);
-}
-catch (Exception ex)
-{
-    Console.WriteLine("Ocurrio un error: " + ex.Message);
-}
-finally
-{
-    Console.WriteLine("Programa finalizado");
-}
+        Console.WriteLine("Escribe otro numero: ");
+        int b = Convert.ToInt32(Console.ReadLine());
+
+        if(a < 0 || b < 0)
+        {
+            throw new NegativeException("Los numeros no pueden ser negativos");
+        }
+
+        int result = a / b;
+
+        Console.WriteLine("El resultado de la division es: " + result);
+
+        isOver = true;
+    }
+    catch(NegativeException ex)
+    {
+        Console.WriteLine(ex.Message);
+    }
+    catch (FormatException ex)
+    {
+        Console.WriteLine("Debes escribir numeros" + ex.Message);
+    }
+    catch (DivideByZeroException ex)
+    {
+        Console.WriteLine("No puedes dividir entre cero" + ex.Message);
+    }
+    catch (OverflowException ex)
+    {
+        Console.WriteLine("El numero es muy grande" + ex.Message);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("Ocurrio un error: " + ex.Message);
+    }
+    finally
+    {
+        Console.WriteLine("..........................");
+    }
+} while (!isOver);
+
+Console.WriteLine("Programa finalizado");
+
 
 /*
 Las excepciones son para situaciones inesperadas y poder tomar una decision

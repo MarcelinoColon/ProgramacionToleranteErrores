@@ -1,0 +1,12 @@
+@DataAnnotationsAPI_HostAddress = http://localhost:5175
+
+POST {{DataAnnotationsAPI_HostAddress}}/products
+Content-Type: application/json
+
+{
+  "id": 1,
+  "Name": "V",
+  "Price": 50
+}
+
+###

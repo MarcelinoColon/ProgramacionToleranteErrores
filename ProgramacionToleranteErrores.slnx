@@ -5,4 +5,10 @@
     <Project Path="ExceptionPerfomance/ExceptionPerfomance.csproj" Id="07e6db9d-9cdb-4002-8a9f-5a5a99ed698f" />
     <Project Path="ProductRepository-Exception/ProductRepository-Exception.csproj" Id="7443b3ed-a84a-49d7-ae01-4bcec53ffbb7" />
   </Folder>
+  <Folder Name="/Validations/">
+    <Project Path="DataAnnotationsAPI/DataAnnotationsAPI.csproj" Id="ed294d0a-e5ea-4da4-818a-6a7812e9e129" />
+    <Project Path="ManualValidations/ManualValidations.csproj" Id="afe4e384-9160-420b-95e6-bc29e1a34a07" />
+    <Project Path="NullReference/NullReference.csproj" Id="a25fcc83-617f-40be-a04f-9ec191afb53f" />
+    <Project Path="RegExValidations/RegExValidations.csproj" Id="8b910a46-a78b-42d7-80ea-67424ba85964" />
+  </Folder>
 </Solution>

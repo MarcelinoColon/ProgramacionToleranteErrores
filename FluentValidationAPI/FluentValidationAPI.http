@@ -1,0 +1,12 @@
+@FluentValidationAPI_HostAddress = http://localhost:5132
+
+POST {{FluentValidationAPI_HostAddress}}/customers
+Content-Type: application/json
+
+{
+  "Name": "Juan Diaz",
+  "Email": "juan@hotmail.com",
+  "Balance": 15
+}
+
+###

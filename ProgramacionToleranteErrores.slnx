@@ -5,6 +5,12 @@
     <Project Path="ExceptionPerfomance/ExceptionPerfomance.csproj" Id="07e6db9d-9cdb-4002-8a9f-5a5a99ed698f" />
     <Project Path="ProductRepository-Exception/ProductRepository-Exception.csproj" Id="7443b3ed-a84a-49d7-ae01-4bcec53ffbb7" />
   </Folder>
+  <Folder Name="/ResultPattern/">
+    <Project Path="RegisterResultPattern/RegisterResultPattern.csproj" Id="2aff5030-c26d-47b5-8a2e-55741a74a000" />
+    <Project Path="ResultPattern/ResultPattern.csproj" Id="3547f251-d85d-4cdb-a85a-b62d5e189568" />
+    <Project Path="ResultPatternCollection/ResultPatternCollection.csproj" Id="854aac7c-5910-4f7d-bce1-5aaeb3d8637c" />
+    <Project Path="ResultPatternCombine/ResultPatternCombine.csproj" Id="58a34a56-6215-4aea-897e-9d47f8b2b97b" />
+  </Folder>
   <Folder Name="/Validations/">
     <Project Path="DataAnnotationsAPI/DataAnnotationsAPI.csproj" Id="ed294d0a-e5ea-4da4-818a-6a7812e9e129" />
     <Project Path="FluentValidationAPI/FluentValidationAPI.csproj" Id="8b7eaa0a-be08-46ad-855e-680882659fc5" />

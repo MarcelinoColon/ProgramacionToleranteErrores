@@ -1,0 +1,14 @@
+@SanitizationAPI_HostAddress = http://localhost:5238
+
+POST {{SanitizationAPI_HostAddress}}/people
+Content-Type: application/json
+
+{
+  "Name": "    Marcelino      Colon     ",
+  "Email": "MarCelinO.ColoN@gmaIl.com",
+  "Phone": "    (123)-456-7890asad",
+  "Description": "    This is a \\ || asdasd óró SAMPLE  21123 222description with MIXED case letters.   ",
+  "Content": "<div><h1>Hola</h1><script>alert('hack');</script><p>Un texto sin igual</p><script>console.log('otro script');</script></div>"
+}
+
+###

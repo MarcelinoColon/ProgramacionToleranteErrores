@@ -20,6 +20,13 @@
     <Project Path="ResultPatternCollection/ResultPatternCollection.csproj" Id="854aac7c-5910-4f7d-bce1-5aaeb3d8637c" />
     <Project Path="ResultPatternCombine/ResultPatternCombine.csproj" Id="58a34a56-6215-4aea-897e-9d47f8b2b97b" />
   </Folder>
+  <Folder Name="/Retry/">
+    <Project Path="ApiRetry/ApiRetry.csproj" Id="455eef99-a62c-42a1-a951-e2354dfef137" />
+    <Project Path="AsyncRetry/AsyncRetry.csproj" Id="78b3adfb-5a42-4ad7-942f-f1ca52bac863" />
+    <Project Path="BasicRetry/BasicRetry.csproj" Id="1c2a72c8-0231-439a-97ce-f5219981a347" />
+    <Project Path="PollyRetry/PollyRetry.csproj" Id="eab5725c-32f8-4996-b2c5-8a6b58ff8869" />
+    <Project Path="PollyRetryForever/PollyRetryForever.csproj" Id="23d4fed1-4739-4cc5-ab3f-651efdf1a87e" />
+  </Folder>
   <Folder Name="/Sanitization/">
     <Project Path="SanitizationAPI/SanitizationAPI.csproj" Id="f8284fd5-b5ac-44d1-bbf9-ddfa6ab21001" />
   </Folder>

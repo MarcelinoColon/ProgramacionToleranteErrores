@@ -5,6 +5,10 @@
     <Project Path="ExceptionPerfomance/ExceptionPerfomance.csproj" Id="07e6db9d-9cdb-4002-8a9f-5a5a99ed698f" />
     <Project Path="ProductRepository-Exception/ProductRepository-Exception.csproj" Id="7443b3ed-a84a-49d7-ae01-4bcec53ffbb7" />
   </Folder>
+  <Folder Name="/Logging/">
+    <Project Path="ApiwithLogs/ApiwithLogs.csproj" Id="cb072aa7-a984-43f0-8f64-d57b8ab6796e" />
+    <Project Path="Intro/Intro.csproj" Id="0bdc5944-541a-4c67-837c-094c3c7e51b8" />
+  </Folder>
   <Folder Name="/NotificationPattern/">
     <Project Path="NotificationPattern/NotificationPattern.csproj" Id="86aedadf-0436-4e09-9de5-8ffd862b9ffe" />
     <Project Path="NotificationPatternFile/NotificationPatternFile.csproj" Id="1f6aba3f-e569-48ed-81cf-b53b39209db2" />

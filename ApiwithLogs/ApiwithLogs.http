@@ -1,0 +1,22 @@
+@ApiwithLogs_HostAddress = http://localhost:5101
+
+GET {{ApiwithLogs_HostAddress}}/hi
+Accept: application/json
+
+###
+
+POST {{ApiwithLogs_HostAddress}}/checktotal
+Content-Type: application/json
+
+{
+  "detail": [
+    {
+      "idProduct": 1,
+      "Quantity": 5
+    },
+    {
+      "idProduct": 2,
+      "Quantity": 8
+    }
+  ]
+}

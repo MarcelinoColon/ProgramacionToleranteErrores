@@ -1,0 +1,13 @@
+@CircuitBreakerAPI_HostAddress = http://localhost:5036
+
+GET {{CircuitBreakerAPI_HostAddress}}/posts/
+Accept: application/json
+
+###
+
+GET {{CircuitBreakerAPI_HostAddress}}/advancedposts/
+Accept: application/json
+
+###
+
+

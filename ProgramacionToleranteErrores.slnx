@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/CircuitBreaker/">
+    <Project Path="CircuitBreakerAPI/CircuitBreakerAPI.csproj" Id="e4fa6421-cc8a-44d5-9d7c-6fbe12e56049" />
+    <Project Path="IntroCircuitBreaker/IntroCircuitBreaker.csproj" Id="dab3e401-b530-47ea-b5d1-30e4a0013851" />
+    <Project Path="ResetCircuitBreaker/ResetCircuitBreaker.csproj" Id="62ba5539-676b-4d8b-b599-f912f76a8d17" />
+  </Folder>
   <Folder Name="/Exceptions/">
     <Project Path="Exception/Exception.csproj" />
     <Project Path="ExceptionApi/ExceptionApi.csproj" Id="bd6636af-6a88-4ac3-9eb3-772cabc1c4bb" />
@@ -29,6 +34,9 @@
   </Folder>
   <Folder Name="/Sanitization/">
     <Project Path="SanitizationAPI/SanitizationAPI.csproj" Id="f8284fd5-b5ac-44d1-bbf9-ddfa6ab21001" />
+  </Folder>
+  <Folder Name="/Timeout/">
+    <Project Path="IntroTimeout/IntroTimeout.csproj" Id="3b16b7a4-344f-45f7-92d5-98338256f445" />
   </Folder>
   <Folder Name="/Validations/">
     <Project Path="DataAnnotationsAPI/DataAnnotationsAPI.csproj" Id="ed294d0a-e5ea-4da4-818a-6a7812e9e129" />

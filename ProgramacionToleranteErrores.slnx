@@ -10,6 +10,11 @@
     <Project Path="ExceptionPerfomance/ExceptionPerfomance.csproj" Id="07e6db9d-9cdb-4002-8a9f-5a5a99ed698f" />
     <Project Path="ProductRepository-Exception/ProductRepository-Exception.csproj" Id="7443b3ed-a84a-49d7-ae01-4bcec53ffbb7" />
   </Folder>
+  <Folder Name="/Fallback/">
+    <Project Path="DataFallback/DataFallback.csproj" Id="8cf7f704-06bb-413c-8985-69dd6956a641" />
+    <Project Path="FormFallback/FormFallback.csproj" Id="fb374a2e-9abd-4ee4-84a7-e944b5352e1c" />
+    <Project Path="IntroFallback/IntroFallback.csproj" Id="044adafe-f87e-49a6-9635-2bb31fb0c6cb" />
+  </Folder>
   <Folder Name="/Logging/">
     <Project Path="ApiwithLogs/ApiwithLogs.csproj" Id="cb072aa7-a984-43f0-8f64-d57b8ab6796e" />
     <Project Path="Intro/Intro.csproj" Id="0bdc5944-541a-4c67-837c-094c3c7e51b8" />
@@ -37,6 +42,9 @@
   </Folder>
   <Folder Name="/Timeout/">
     <Project Path="IntroTimeout/IntroTimeout.csproj" Id="3b16b7a4-344f-45f7-92d5-98338256f445" />
+    <Project Path="ManualCancellationTimeout/ManualCancellationTimeout.csproj" Id="e32661a5-9bf7-4760-b19a-fcea7bc1eccc" />
+    <Project Path="OptimisticTimeout/OptimisticTimeout.csproj" Id="f698df1d-c960-46e3-a405-d4bf40866e8c" />
+    <Project Path="TimeoutAPI/TimeoutAPI.csproj" Id="0f9fb121-32e0-48d4-8645-eaa8650fef17" />
   </Folder>
   <Folder Name="/Validations/">
     <Project Path="DataAnnotationsAPI/DataAnnotationsAPI.csproj" Id="ed294d0a-e5ea-4da4-818a-6a7812e9e129" />

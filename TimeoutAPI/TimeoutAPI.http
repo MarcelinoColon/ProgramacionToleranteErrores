@@ -1,0 +1,6 @@
+@TimeoutAPI_HostAddress = http://localhost:5265
+
+GET {{TimeoutAPI_HostAddress}}/timeout
+Accept: application/json
+
+###
